@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		891DDACC2184611500FCC15D /* page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891DDACB2184611500FCC15D /* page1.swift */; };
+		891DDACE21846AE700FCC15D /* page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891DDACD21846AE700FCC15D /* page2.swift */; };
+		891DDAD021846AF700FCC15D /* page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891DDACF21846AF700FCC15D /* page3.swift */; };
+		891DDAD221846B0500FCC15D /* page4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891DDAD121846B0500FCC15D /* page4.swift */; };
+		891DDAD821847C9B00FCC15D /* MyTapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891DDAD721847C9B00FCC15D /* MyTapBarController.swift */; };
+		891DDADA21847F4B00FCC15D /* tapBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891DDAD921847F4B00FCC15D /* tapBar.swift */; };
 		89F5C51021842A6200A45C07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F5C50F21842A6200A45C07 /* AppDelegate.swift */; };
-		89F5C51221842A6200A45C07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F5C51121842A6200A45C07 /* ViewController.swift */; };
 		89F5C51521842A6200A45C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F5C51321842A6200A45C07 /* Main.storyboard */; };
 		89F5C51721842A6400A45C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F5C51621842A6400A45C07 /* Assets.xcassets */; };
 		89F5C51A21842A6400A45C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F5C51821842A6400A45C07 /* LaunchScreen.storyboard */; };
+		89F5C52221843A4400A45C07 /* lounges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F5C52121843A4400A45C07 /* lounges.swift */; };
+		D609B6D30D1E122B3B61084E /* Pods_saudia_Airline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEBC67DC6C5904907BAF543 /* Pods_saudia_Airline.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BEBC67DC6C5904907BAF543 /* Pods_saudia_Airline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_saudia_Airline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DD0474B732828AF13C7F1B /* Pods-saudia Airline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-saudia Airline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-saudia Airline/Pods-saudia Airline.debug.xcconfig"; sourceTree = "<group>"; };
+		891DDACB2184611500FCC15D /* page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page1.swift; sourceTree = "<group>"; };
+		891DDACD21846AE700FCC15D /* page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page2.swift; sourceTree = "<group>"; };
+		891DDACF21846AF700FCC15D /* page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page3.swift; sourceTree = "<group>"; };
+		891DDAD121846B0500FCC15D /* page4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page4.swift; sourceTree = "<group>"; };
+		891DDAD721847C9B00FCC15D /* MyTapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTapBarController.swift; sourceTree = "<group>"; };
+		891DDAD921847F4B00FCC15D /* tapBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapBar.swift; sourceTree = "<group>"; };
 		89F5C50C21842A6200A45C07 /* saudia Airline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "saudia Airline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F5C50F21842A6200A45C07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89F5C51121842A6200A45C07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89F5C51421842A6200A45C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89F5C51621842A6400A45C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89F5C51921842A6400A45C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89F5C51B21842A6400A45C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89F5C52121843A4400A45C07 /* lounges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lounges.swift; sourceTree = "<group>"; };
+		D600E6FD5661B31639CBFA10 /* Pods-saudia Airline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-saudia Airline.release.xcconfig"; path = "Pods/Target Support Files/Pods-saudia Airline/Pods-saudia Airline.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D609B6D30D1E122B3B61084E /* Pods_saudia_Airline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57329D450D0A5B7B892FF45F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70DD0474B732828AF13C7F1B /* Pods-saudia Airline.debug.xcconfig */,
+				D600E6FD5661B31639CBFA10 /* Pods-saudia Airline.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5ECF2460F37884789D77EBCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BEBC67DC6C5904907BAF543 /* Pods_saudia_Airline.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89F5C50321842A6200A45C07 = {
 			isa = PBXGroup;
 			children = (
 				89F5C50E21842A6200A45C07 /* saudia Airline */,
 				89F5C50D21842A6200A45C07 /* Products */,
+				57329D450D0A5B7B892FF45F /* Pods */,
+				5ECF2460F37884789D77EBCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +91,14 @@
 			isa = PBXGroup;
 			children = (
 				89F5C50F21842A6200A45C07 /* AppDelegate.swift */,
-				89F5C51121842A6200A45C07 /* ViewController.swift */,
 				89F5C51321842A6200A45C07 /* Main.storyboard */,
+				891DDAD921847F4B00FCC15D /* tapBar.swift */,
+				891DDAD721847C9B00FCC15D /* MyTapBarController.swift */,
+				891DDACB2184611500FCC15D /* page1.swift */,
+				891DDACD21846AE700FCC15D /* page2.swift */,
+				891DDAD121846B0500FCC15D /* page4.swift */,
+				891DDACF21846AF700FCC15D /* page3.swift */,
+				89F5C52121843A4400A45C07 /* lounges.swift */,
 				89F5C51621842A6400A45C07 /* Assets.xcassets */,
 				89F5C51821842A6400A45C07 /* LaunchScreen.storyboard */,
 				89F5C51B21842A6400A45C07 /* Info.plist */,
@@ -71,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89F5C51E21842A6400A45C07 /* Build configuration list for PBXNativeTarget "saudia Airline" */;
 			buildPhases = (
+				7917F089F8D9140343061A6A /* [CP] Check Pods Manifest.lock */,
 				89F5C50821842A6200A45C07 /* Sources */,
 				89F5C50921842A6200A45C07 /* Frameworks */,
 				89F5C50A21842A6200A45C07 /* Resources */,
+				61ADBC3BB139F74F72E760D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +174,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		61ADBC3BB139F74F72E760D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-saudia Airline/Pods-saudia Airline-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-saudia Airline/Pods-saudia Airline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7917F089F8D9140343061A6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-saudia Airline-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89F5C50821842A6200A45C07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89F5C51221842A6200A45C07 /* ViewController.swift in Sources */,
 				89F5C51021842A6200A45C07 /* AppDelegate.swift in Sources */,
+				891DDADA21847F4B00FCC15D /* tapBar.swift in Sources */,
+				891DDACE21846AE700FCC15D /* page2.swift in Sources */,
+				89F5C52221843A4400A45C07 /* lounges.swift in Sources */,
+				891DDACC2184611500FCC15D /* page1.swift in Sources */,
+				891DDAD021846AF700FCC15D /* page3.swift in Sources */,
+				891DDAD821847C9B00FCC15D /* MyTapBarController.swift in Sources */,
+				891DDAD221846B0500FCC15D /* page4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +369,13 @@
 		};
 		89F5C51F21842A6400A45C07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70DD0474B732828AF13C7F1B /* Pods-saudia Airline.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6GC8L5SW4;
 				INFOPLIST_FILE = "saudia Airline/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +389,13 @@
 		};
 		89F5C52021842A6400A45C07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D600E6FD5661B31639CBFA10 /* Pods-saudia Airline.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6GC8L5SW4;
 				INFOPLIST_FILE = "saudia Airline/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

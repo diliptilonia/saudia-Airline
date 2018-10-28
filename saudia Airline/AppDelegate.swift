@@ -8,6 +8,7 @@
 
 import UIKit
 
+@available(iOS 10.0, *)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+//        UITabBar.appearance().unselectedItemTintColor = UIColor(displayP3Red: 0, green: 0, blue: 0, alpha: 1)
+        UITabBar.appearance().tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+//        UITabBar.appearance().
         // Override point for customization after application launch.
         return true
     }
